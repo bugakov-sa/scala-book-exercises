@@ -1,1 +1,1 @@
-# scala-book-exercises
+Упражнения из книги "Scala для нетерпеливых"

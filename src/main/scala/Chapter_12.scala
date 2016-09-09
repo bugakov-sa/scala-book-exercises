@@ -1,16 +1,4 @@
 object Chapter_12 extends App {
-
-  e1
-  e2
-  e3
-  e4
-  e5
-  e6
-  e7
-  e8
-  e9
-  e10
-
   def e1: Unit = {
     def values(fun: (Int => Int), low: Int, high: Int) = (low to high) map (x => (x, fun(x)))
 
@@ -78,4 +66,15 @@ object Chapter_12 extends App {
       println("3>2")
     }
   }
+
+  e1
+  e2
+  e3
+  e4
+  e5
+  e6
+  e7
+  e8
+  e9
+  e10
 }

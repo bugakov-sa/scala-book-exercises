@@ -1,11 +1,4 @@
 object Chapter_13 extends App {
-
-  e1
-  e2
-  e4
-  e5
-  e6
-
   def e1: Unit = {
     import collection.mutable._
 
@@ -49,4 +42,10 @@ object Chapter_13 extends App {
     val quantities = List(10, 2, 1)
     println((prices zip quantities) map (Function.tupled(_ * _)) sum)
   }
+
+  e1
+  e2
+  e4
+  e5
+  e6
 }
